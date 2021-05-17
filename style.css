@@ -7,7 +7,7 @@
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
-    background: rgb(179, 232, 216);
+    background: rgb(255, 255, 255);
     color: #fff;
     display: flex;
     align-items: center;
@@ -32,8 +32,11 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(bg_img.jpg);
+    background-image: url(bg_img.jpg);
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
+}
+.card-back {
+    transform: rotateY(180deg);
 }
